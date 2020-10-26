@@ -17,7 +17,41 @@
     display: grid;
     height: auto;
 }
-
+.footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec2 {
+    padding: 1vw;
+    color: #ffffff;
+}
+#main_text {
+    vertical-align: middle;
+    padding-top: 0.5vw;
+    font-size: 5vw;
+    font-weight: 800;
+}
+.navi_link {
+    text-align: center;
+}
+.navi_link li {
+    display: inline-flex;
+    padding-left: 0.5vw;
+    text-decoration: none;
+    color: #707070;
+}
+.navi_link li:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer_text {
+    text-align: center;
+    padding-top: 1.5vw;
+}
+#copyright_text {
+    font-size: 1vw;
+    color: #555555;
+}
 /* Responsive css goes here */
 /* For Mobile Screen */
 @media screen and (max-width: 430px) {
