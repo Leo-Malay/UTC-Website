@@ -12,6 +12,11 @@
     -webkit-app-region: no-drag;
     cursor: default;
 }
+.Side_By_Side_2,
+.Side_By_Side_3 {
+    display: grid;
+    height: auto;
+}
 
 /* Responsive css goes here */
 /* For Mobile Screen */
@@ -27,11 +32,27 @@
         line-height: 24px;
         letter-spacing: 2px;
     }
+    .Side_By_Side_2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0vw;
+    }
+    .Side_By_Side_3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0vw;
+    }
 }
 /* For Desktop Screen */
 @media screen and (min-width: 769px) {
     * {
         line-height: 25px;
         letter-spacing: 1px;
+    }
+    .Side_By_Side_2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0vw;
+    }
+    .Side_By_Side_3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0vw;
     }
 }
