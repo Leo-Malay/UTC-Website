@@ -18,30 +18,40 @@
     height: auto;
 }
 .footer {
+    padding: 2vw;
+}
+.footer_container {
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .sec2 {
-    padding: 1vw;
+    padding-top: 10vw;
     color: #ffffff;
 }
 #main_text {
     vertical-align: middle;
-    padding-top: 0.5vw;
+    padding-top: 3.5vw;
     font-size: 5vw;
     font-weight: 800;
 }
 .navi_link {
     text-align: center;
+    padding: 3vw 3vw;
+}
+a:link,
+a:active,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    padding: 1.5vw 1.5vw;
 }
 .navi_link li {
-    display: inline-flex;
-    padding-left: 0.5vw;
+    display: inline-block;
+    font-size: 1.7vw;
     text-decoration: none;
-    color: #707070;
+    color: #8d8d8d;
+    transition-duration: 0.65s;
 }
 .navi_link li:hover {
-    text-decoration: none;
     color: #ffffff;
 }
 .footer_text {
@@ -49,8 +59,9 @@
     padding-top: 1.5vw;
 }
 #copyright_text {
-    font-size: 1vw;
-    color: #555555;
+    padding: 1.5vw;
+    font-size: 1.3vw;
+    color: #646464;
 }
 /* Responsive css goes here */
 /* For Mobile Screen */
@@ -77,10 +88,10 @@
 }
 /* For Desktop Screen */
 @media screen and (min-width: 769px) {
-    * {
+    /** {
         line-height: 25px;
         letter-spacing: 1px;
-    }
+    }*/
     .Side_By_Side_2 {
         grid-template-columns: 1fr 1fr;
         grid-gap: 0vw;
